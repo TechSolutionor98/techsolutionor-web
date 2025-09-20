@@ -104,12 +104,12 @@ const HomeBanner = () => {
         </div>
 
         {/* Right Side Image with Green Background */}
-        <div className=" md:flex justify-center items-center relative md:min-h-[500px] md:mt-0">
+        <div className=" md:flex justify-center items-center relative md:min-h-[500px] md:mt-0 -mt-5">
           <div className="absolute right-0 top-0 h-[250px] w-[200px] md:h-[500px] md:w-[80%] bg-[#41B349] -mt-15" style={{borderRadius: "0px 0px 50% 50%"}}></div>
           <Image
             src={BannerImage}
             alt="Illustration"
-            className="relative z-10 w-[200px] h-[200px] md:w-[460px] md:h-[500px] ml-0 md:ml-30 -mt-20"
+            className="relative z-10 w-[200px] h-[200px] md:w-[460px] md:h-[500px] ml-0 md:ml-30 -mt-10"
             style={{ marginRight: "40px" }}
           />
         </div>

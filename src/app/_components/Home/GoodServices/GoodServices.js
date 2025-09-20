@@ -35,21 +35,21 @@ const GoodServices = () => {
 
     return (
         <div className='mt-10'>
-            <div className="goodservices-top flex items-start justify-between">
-                <div className="comma ml-5 mt-10">
-                    <Image src={Comma} alt="img" width={800} height={800} className='w-[40px] h-[40px] md:w-[108px] md:h-[86px] ' />
+            <div className="goodservices-top px-5 md:px-0 flex flex-col md:flex-row items-center md:items-start justify-between">
+                <div className="comma md:ml-5 md:mt-10">
+                    <Image src={Comma} alt="img" width={800} height={800} className='w-[80px] h-[60px] md:w-[108px] md:h-[86px] ' />
                 </div>
-                <div className="info w-[1000px] ">
-                    <h1 className='text-center text-[36px] font-[800] text-[#43b44a]'>You Can Depend On Us To Get A <br />
-                        <span className='text-black'>Good Services</span>
+                <div className="info md:w-[1000px] ">
+                    <h1 className='text-center text-[36px] font-[800] text-[#43b44a] leading-[36px]'>You Can Depend On Us To Get A <br />
+                        <span className='text-black  md:mt-0'>Good Services</span>
                     </h1>
                     <p className='text-justify text-black text[16px] font-[500] leading-[25px] mt-5'>TECHSOLUTIONOR was founded to meet the growing need for expert IT advisory services. Our mission is to help you maximize productivity and reach your full potential through cutting-edge technology solutions. We treat our clients like family, finding great satisfaction in supporting you as you achieve your goals. For us, there’s no substitute for personal interaction and a deep understanding of your unique needs. Let us partner with you to drive success and innovation in your business.</p>
                 </div>
-                <div className="eclipse">
+                <div className="eclipse md:block hidden">
                     <Image src={Eclipse} alt="img" width={800} height={800} className='w-[40px] h-[40px] md:w-[118px] md:h-[298px] ' />
                 </div>
             </div>
-            <div className="goodservices-med flex flex-col md:flex-row items-start md:items-center px-10 md:px-10 justify-between md:-mt-20 gap-8">
+            <div className="goodservices-med flex flex-col md:flex-row items-start md:items-center px-5 md:px-10 justify-between md:-mt-20 gap-8">
                 <div className="goodservices-med-left w-full md:w-[50%]">
                     <h1 className="text-[28px] font-bold mb-3">Service Experience</h1>
                     <div className="w-full max-w-[600px]">

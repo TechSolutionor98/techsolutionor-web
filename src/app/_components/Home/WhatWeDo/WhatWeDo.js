@@ -12,7 +12,7 @@ const WhatWeDo = () => {
     ]
   return (
     <div className='mt-10'>
-      <div className="heading bg-[#41b349] w-full h-[110px] flex justify-center items-center text-white font-bold text-[20px] md:text-[30px]">
+      <div className="heading bg-[#41b349] w-full h-[80px] md:h-[110px] flex justify-center items-center text-white font-bold text-[20px] md:text-[30px]">
         <h1 className='text-[30px] md:text-[50px] font-[800] uppercase'>WHAT WE DO</h1>
       </div>
       <div className="cards bg-[#181818] w-full px-0 py-1 text-white mt-5">
