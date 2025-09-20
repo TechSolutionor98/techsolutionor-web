@@ -241,7 +241,7 @@ const Navbar = () => {
                     className="bg-[#41B349] text-white text-[15px] font-medium w-[104px] h-[39px] rounded-[20px] hover:bg-white hover:text-black transition ease-in-out duration-200 cursor-pointer"
                         
                     >
-                        Get Post
+                        Get POS
                     </button>
                     <button
                     className="bg-[#41B349] text-white text-[15px] font-medium w-[104px] h-[39px] rounded-[20px] hover:bg-white hover:text-black transition ease-in-out duration-200 cursor-pointer"
