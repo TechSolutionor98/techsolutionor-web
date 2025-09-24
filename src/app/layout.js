@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import SideIcons from './_components/SideIcons';
 import ScrollToTopButton from './_components/ScrollToTopButton';
+import Footer from "../../Components/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <SideIcons />
         <ScrollToTopButton />
         {children}
+        <Footer/>
       </body>
     </html>
   );
