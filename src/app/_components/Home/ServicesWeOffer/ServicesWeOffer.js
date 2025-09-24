@@ -30,7 +30,7 @@ const ServicesWeOffer = () => {
                 </div>
                 <div className="cards z-10 flex fle-col md:flex-row flex-wrap items-center justify-center px-10 gap-10">
                     {services.map((item, i)=>(
-                        <div className='service-cards rounded-[20px] flex flex-col w-[320px] h-[320px] items-center justify-center bg-[#fbfbfb] gap-5' style={{boxShadow: '14px 14px 5px -8px rgba(38, 35, 35, 0.23921568627450981)'}}>
+                        <div key={i} className='service-cards rounded-[20px] flex flex-col w-[320px] h-[320px] items-center justify-center bg-[#fbfbfb] gap-5' style={{boxShadow: '14px 14px 5px -8px rgba(38, 35, 35, 0.23921568627450981)'}}>
                             <Image alt='service-image' src={item.Image} width={62} height={62}/>
                             <h1 className='text-[#41b349] text-[25px] font-[700] text-center leading-[30px]'>{item.title}</h1>
                             <button className='w-[135px] h-[39px] flex items-center justify-center bg-[#262323] text-white text-[15px] font-[500] rounded-[20px] hover:bg-white hover:text-[#262323] transition ease-in-out duration-300' style={{boxShadow:  '0px 5px 10px 0px #CACACA'}}>Read More</button>

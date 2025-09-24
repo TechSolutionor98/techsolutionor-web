@@ -84,7 +84,7 @@ const Footer = () => {
                     <input type="email" className='h-[43px] w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Email' />
                     <input type="text" className='h-[43px] w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Website URL' />
                     <select name="services" id="services" className='h-[43px] w-[215px] bg-white text-[#6d6d6d] px-[14px] border border-transparent focus:border-[#066AAb] transition-all duration-200'>
-                        <option value="services" disabled selected>Select Services</option>
+                        <option value="services" disabled >Select Services</option>
                         <option value="App Developement">App Developement</option>
                         <option value="Web Developement">Web Developement</option>
                         <option value="Software Developement">Digital Marketing</option>

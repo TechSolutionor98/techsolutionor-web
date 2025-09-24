@@ -41,11 +41,11 @@ const Technology = () => {
                     {techs.map((item, i) => (
                         <div className="card w-[330px] h-[330px] relative rounded-[29px]" style={{boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)'}} key={i}>
                             <div className="images-top">
-                                <Image src={item.RectBg} alt='Cardbg w-full h-[146px]' width={1000} height={1000} />
-                                <Image src={Techcard} className='w-[330px] absolute border h-[146px] top-0 left-0 z-10' width={1000} height={100} />
+                                <Image src={item.RectBg} alt='Cardbg' width={1000} height={1000} />
+                                <Image src={Techcard} alt='Cardbg' className='w-[330px] absolute border h-[146px] top-0 left-0 z-10' width={1000} height={100} />
                             </div>
                             <div className="bottom-data flex flex-col items-center text-center px-5 pb-5">
-                                <Image src={item.Image} width={117} height={117} className='-mt-20 -mb-5 w-[117px] h-[117px]' />
+                                <Image src={item.Image} alt='Cardbg' width={117} height={117} className='-mt-20 -mb-5 w-[117px] h-[117px]' />
                                 <h1 className='text-[25px] font-[600]'>{item.title}</h1>
                                 <p className='text-[10px] leading-[22.5px]'>{item.desc}</p>
                             </div>
