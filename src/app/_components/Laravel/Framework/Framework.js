@@ -1,5 +1,5 @@
 import React from 'react'
-import LaravelIcon from '../../../../../Components/Images/jsicon.png'
+import LaravelIcon from '../../../../../Components/Images/laravalicon.png'
 import Image from 'next/image'
 
 const JsFramework = () => {
