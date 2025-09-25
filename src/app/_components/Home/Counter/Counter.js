@@ -49,7 +49,7 @@ const Counter = () => {
   }, [inView]);
 
   return (
-    <div ref={ref} className='w-full h-auto md:h-[148px] py-5 md:py-0 bg-[#41b349] flex flex-col md:flex-row items-center justify-center mt-40'>
+    <div ref={ref} className='w-full h-auto md:h-[148px] py-5 md:py-0 bg-[#41b349] flex flex-col md:flex-row items-center justify-center mt-20 md:mt-40'>
       <div className="w-full max-w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-0 text-center">
         {counters.map((counter, idx) => (
           <div key={counter.label} className="flex flex-col items-center justify-center">

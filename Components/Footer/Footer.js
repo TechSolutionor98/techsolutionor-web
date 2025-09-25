@@ -59,7 +59,7 @@ const Footer = () => {
         ]
     }
     return (
-        <div className='w-full bg-black text-white mt-20'>
+        <div className='w-full bg-black text-white mt-10'>
             {/* Top Section */}
             <div className="grid grid-cols-2 md:flex md:flex-row items-start justify-center gap-10 md:gap-30 px-5 md:px-0 py-10">
                 {Object.entries(footerLinks).map(([section, links]) => (
@@ -97,7 +97,7 @@ const Footer = () => {
                 <hr className='w-[80%] h-[1px] text-white bg-white '/>
             </div>
             {/* Social & Contact Section */}
-            <div className="flex flex-col md:flex-row items-center justify-center w-full px-20 py-8 gap-5 md:gap-20 md;pl-25">
+            <div className="flex flex-col md:flex-row items-center justify-center w-full px-20 py-8 gap-5 md:gap-20 md:pl-25">
                 {/* Social Icons */}
                 <div className="flex items-center gap-3">
                     <FaFacebookF className='text-[25px] p-1 rounded-full border hover:bg-[#066AAb]   cursor-pointer transition ease-in-out duration-200'/>
@@ -111,7 +111,7 @@ const Footer = () => {
                     Call now: <span className="">+971 54 3502 460</span>
                 </div>
                 {/* Copyright */}
-                <div className="text-[15px] font-[400] text-right">
+                <div className="text-[15px] font-[400] md:text-right">
                     All rights reserved | <span className="font-bold">TECH SOLUTIONOR</span>
                 </div>
             </div>
