@@ -24,7 +24,7 @@ const Testimonials = () => {
   ]
 
   return (
-    <div className="relative ">
+    <div className="relative hidden md:block">
       <h1 className="text-center text-[38px] md:text-[48px] font-bold mb-12">
         Customer <span className="text-[#43b949]">Reviews</span>
       </h1>

@@ -61,7 +61,7 @@ const Footer = () => {
     return (
         <div className='w-full bg-black text-white mt-20'>
             {/* Top Section */}
-            <div className="flex items-start justify-center gap-30 py-10">
+            <div className="grid grid-cols-2 md:flex md:flex-row items-start justify-center gap-10 md:gap-30 px-5 md:px-0 py-10">
                 {Object.entries(footerLinks).map(([section, links]) => (
                     <div key={section} className="footer-section">
                         <h2 className="text-[22px] text-[#40b348] font-[600] mb-4">{section}</h2>
@@ -75,15 +75,15 @@ const Footer = () => {
             </div>
             {/* Bottom Section */}
             <div className="flex flex-col items-center justify-center gap-10 pb-10">
-                <p className="text-[40px] font-[600]">We'd Love To Hear From You</p>
+                <p className="text-[20px] md:text-[40px] font-[600]">We'd Love To Hear From You</p>
                 <Image src={Map} alt="Map" width={1024} height={300} className='' />
             </div>
-            <div className="emaillinks flex items-center justify-center pb-10">
-                <form action="" className='flex flex-col md:flex-row gap-5'>
-                    <input type="text" className='h-[43px] w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Name' />
-                    <input type="email" className='h-[43px] w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Email' />
-                    <input type="text" className='h-[43px] w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Website URL' />
-                    <select name="services" id="services" className='h-[43px] w-[215px] bg-white text-[#6d6d6d] px-[14px] border border-transparent focus:border-[#066AAb] transition-all duration-200'>
+            <div className="emaillinks flex items-center justify-center pb-10 w-full">
+                <form action="" className='flex flex-col md:flex-row gap-5 w-full md:w-auto px-10 md:px-0'>
+                    <input type="text" className='h-[43px] w-full md:w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Name' />
+                    <input type="email" className='h-[43px] w-full md:w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Email' />
+                    <input type="text" className='h-[43px] w-full md:w-[215px] bg-white text-[#000] px-[14px] outline-0 border border-transparent focus:border-[#066AAb] transition-all duration-200' placeholder='Website URL' />
+                    <select name="services" id="services" className='h-[43px] w-full md:w-[215px] bg-white text-[#6d6d6d] px-[14px] border border-transparent focus:border-[#066AAb] transition-all duration-200'>
                         <option value="services" disabled >Select Services</option>
                         <option value="App Developement">App Developement</option>
                         <option value="Web Developement">Web Developement</option>
@@ -97,7 +97,7 @@ const Footer = () => {
                 <hr className='w-[80%] h-[1px] text-white bg-white '/>
             </div>
             {/* Social & Contact Section */}
-            <div className="flex flex-col md:flex-row items-center justify-center w-full px-20 py-8 gap-20 pl-25">
+            <div className="flex flex-col md:flex-row items-center justify-center w-full px-20 py-8 gap-5 md:gap-20 md;pl-25">
                 {/* Social Icons */}
                 <div className="flex items-center gap-3">
                     <FaFacebookF className='text-[25px] p-1 rounded-full border hover:bg-[#066AAb]   cursor-pointer transition ease-in-out duration-200'/>

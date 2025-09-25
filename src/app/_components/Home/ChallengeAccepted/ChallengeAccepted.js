@@ -14,12 +14,12 @@ const ChallengeAccepted = () => {
     <div className='relative mt-20'>
       <h1 className='text-[36px] font-[800] text-center'><span className='text-black uppercase p-[10px] bg-[#d9d9d9] '>CHALLENGE</span> <span className='text-[#41b349]'>ACCEPTED</span></h1>
       <p className='text-center text-[15px] mt-5 text-[#232323]'>Tech Solutionor Solves Your Digital Bottlenecks</p>
-      <div className="cards bg-[#262323] w-full h-[500px] mt-20 relative">
+      <div className="cards bg-[#262323] w-full h-auto md:h-[500px] mt-20 relative">
         {/* IF Image of stars wll come */}
-        <div className="challaenge-cards flex items-center justify-center h-full px-5 md:px-10 gap-5 md:gap-5 ">
+        <div className="challaenge-cards flex py-2 flex-col md:flex-row items-center justify-center h-full px-5 md:px-10 gap-5 md:gap-5 ">
           {challenges.map((item, i) => (
-            <div key={i} className={`card w-[350px] h-[450px] rounded-[20px] flex flex-col items-start -mt-40  px-7 py-5 gap-2 text-black bg-white`} style={{ backgroundImage: `url(${CardsBg.src})`, backgroundSize: 'cover', boxShadow: ' 0px 7px 8px 0px rgba(0, 0, 0, 0.5)' }}>
-              <h1 className='text-[30px] font-[600] leading-[30px] text-center'>{item.title}</h1>
+            <div key={i} className={`card w-full md:w-[350px] h-auto md:h-[450px] rounded-[20px] flex flex-col items-start md:-mt-40  px-7 py-5 gap-2 text-black bg-white`} style={{ backgroundImage: `url(${CardsBg.src})`, backgroundSize: 'cover', boxShadow: ' 0px 7px 8px 0px rgba(0, 0, 0, 0.5)' }}>
+              <h1 className='text-[20px] md:text-[30px] font-[600] leading-[20px] md:leading-[30px] text-center'>{item.title}</h1>
               <p className='text-[15px] mt-3 leading-[20px] '>{item.desc}</p>
               <ul className='list-disc text-[15px] mt-3 leading-[20px] ml-4'>
                 {item.list.map((listItem, index) => (
