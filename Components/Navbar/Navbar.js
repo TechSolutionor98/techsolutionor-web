@@ -73,7 +73,7 @@ const techSubLinks = [
     { Image: Shopfiy, label: 'Shopify', href: '/technologies/shopify', border: 'border-green-400' },
     { Image: Magento, label: 'Magento', href: '/technologies/magento', border: 'border-orange-400' },
     { Image: Css, label: 'CSS', href: '/technologies/css', border: 'border-blue-400' },
-    { Image: Net, label: '.NET', href: '/technologies/net', border: 'border-purple-400' },
+    { Image: Net, label: '.NET', href: '/technologies/dotnet', border: 'border-purple-400' },
     { Image: Flutter, label: 'Flutter', href: '/technologies/flutter', border: 'border-blue-400' },
     { Image: Figma, label: 'Figma', href: '/technologies/figma', border: 'border-purple-400' },
     { Image: Meta, label: 'Meta', href: '/technologies/meta', border: 'border-blue-400' },
